@@ -44,12 +44,12 @@ body{
 
 
 
-a, .HeroText{
+a, .HeroText,.servisText{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
-.HeroImg{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+.HeroImg,.ServiceContain img,.ServiciosText{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 1s ease-in-out forwards;
 }
 
 

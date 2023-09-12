@@ -7,6 +7,8 @@ import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Empresas from '../Components/Empresas/Empresas'
 import Servicios from '../Components/Servicios/Servicios'
 import Marketing from '../Components/Marketing/Marketing'
+import DesarrolloWeb from '../Components/DesarrolloWeb/DesarrolloWeb'
+import Alojamiento from '../Components/Alojamiento/Alojamiento'
 export default function IndexLayout() {
     return (
         <div>
@@ -15,6 +17,8 @@ export default function IndexLayout() {
             <Empresas />
             <Servicios />
             <Marketing />
+            <DesarrolloWeb />
+            <Alojamiento />
             <Footer />
             <Developer />
             <ButonScroll />

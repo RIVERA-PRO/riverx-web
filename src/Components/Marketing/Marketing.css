@@ -1,5 +1,5 @@
 .ServiceContain{
-    height: 100vh;
+  
     margin: auto;
     width: 100%;
     overflow: hidden;
@@ -32,22 +32,27 @@
 
 .img{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-}
 
+}
+.img img{
+    width: 80%;
+    object-fit: cover;
+}
 
 
 @media (max-width: 1024px){
     .ServiceContain{
         height: 100%;  
-        padding: 10px 5%;
+        padding: 100px 5%;
        
     }
 
     .deFlex{
         text-align: center;
         place-content: center;
+        flex-direction: column;
     }
 
     .servisText{
