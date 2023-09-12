@@ -5,7 +5,7 @@
     border-radius: 30rem;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 12rem;
     height: 3rem;
     
 }
@@ -21,7 +21,7 @@
     padding: 10px;
 }
 .ButonNav:hover{
-    background: linear-gradient(to right, var(--color1), var(--color2));
+    background: linear-gradient(to right, var(--color1), var(--color3));
     border: 1px solid var(--blanco);
 }
 .ButonNav:hover .icon{
