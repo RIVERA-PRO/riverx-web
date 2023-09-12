@@ -1,0 +1,36 @@
+
+
+.ButonMore{
+    background-color: var(--blanco);
+    border: none;
+    padding: 0px 10px 0px 17px;
+    border-radius: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+    height: 3rem;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    font-size: 15px;
+    margin-top: 1rem;
+    border: 1px solid var(--color1);
+}
+
+.ButonMore:hover{
+    background: linear-gradient(to right, var(--color1), var(--color3));
+    border: 1px solid var(--blanco);
+    width: 13rem;
+    transition: 0.3s ease all;
+}
+
+.ButonMore:hover .icon{
+    background-color: var(--text-color);
+    transition: 0.3s ease all;
+
+}
+.ButonMore:hover {
+    color:var(--blanco);
+    transition: 0.3s ease all;
+}

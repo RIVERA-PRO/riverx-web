@@ -82,4 +82,8 @@
         padding: 100px 10%;
 
     }
+    .HeroImg img{
+        width: 100%;
+        object-fit: cover;
+    }
 }

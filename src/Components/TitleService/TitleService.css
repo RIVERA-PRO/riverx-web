@@ -1,0 +1,19 @@
+/* TitleService.css */
+.titleService {
+    background: linear-gradient(to right, var(--color1), var(--color3)); /* Cambia los colores a tu elección */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block; /* Para que el fondo degradado cubra solo el texto */
+    font-size: 40px;
+  
+  }
+  
+
+  
+@media (max-width: 1024px){
+  .titleService{
+     
+      text-align: center;
+  }
+}

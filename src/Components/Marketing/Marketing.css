@@ -1,0 +1,65 @@
+.ServiceContain{
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    place-content: center;
+    padding: 10px 10%;
+    align-items: center;
+    transition: 0.3s ease all;
+}
+
+.deFlex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.iconTitle{
+    color:var(--color1);
+    font-size: 30px;
+  
+}
+
+.servisText p{
+  color: var(--text-color2);
+  line-height: 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 1024px){
+    .ServiceContain{
+        height: 100%;  
+        padding: 10px 5%;
+       
+    }
+
+    .deFlex{
+        text-align: center;
+        place-content: center;
+    }
+
+    .servisText{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+    }
+    .img img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
