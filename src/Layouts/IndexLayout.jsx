@@ -5,12 +5,14 @@ import Footer from '../Components/Footer/Footer'
 import Developer from '../Components/Developer/Developer'
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Empresas from '../Components/Empresas/Empresas'
+import Servicios from '../Components/Servicios/Servicios'
 export default function IndexLayout() {
     return (
         <div>
             <Header />
             <Hero />
             <Empresas />
+            <Servicios />
             <Footer />
             <Developer />
             <ButonScroll />
