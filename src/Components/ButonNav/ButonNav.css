@@ -1,0 +1,32 @@
+.ButonNav{
+    background-color: var(--blanco);
+    border: none;
+    padding: 0px 10px;
+    border-radius: 30rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    
+}
+
+.ButonNav a{
+    color: var(--text-color);
+}
+
+.icon {
+    color: var(--blanco);
+    background-color: var(--color1);
+    border-radius: 100px;
+    padding: 10px;
+}
+.ButonNav:hover{
+    background: linear-gradient(to right, var(--color1), var(--color2));
+    border: 1px solid var(--blanco);
+}
+.ButonNav:hover .icon{
+    background-color: var(--text-color);
+}
+.ButonNav:hover a{
+    color:var(--blanco);
+}

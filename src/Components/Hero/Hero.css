@@ -1,0 +1,4 @@
+.HeroContain {
+    background: linear-gradient(to right, var(--color1), var(--color2));
+    height: 100vh;
+}

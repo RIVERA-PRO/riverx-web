@@ -1,0 +1,98 @@
+*{
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+:root{
+  --text-color: #000;
+  --text-color2:#75849a;
+  --bg-color: #FAFAFA;
+  --bg-color2: #151414;
+  --color1:#9926f0;
+  --color2:#BB6EF5;
+  --color3:#d122e3;
+  --blanco: #fff;
+}
+
+body{
+  background-color: var(--bg-color);
+}
+@keyframes slideFromLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-20%);
+      -webkit-transform: translateX(-20%);
+      -moz-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+      -o-transform: translateX(-20%);
+}
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+a{
+  opacity: 0;
+  animation: slideFromLeft 1s ease-in-out forwards;
+  -webkit-animation: slideFromLeft 1s ease-in-out forwards;
+}
+.laptop,.mainText,.cardText,.cardCont,.card-scroll{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+}
+
+
+
+@keyframes slideFromRight {
+  from {
+      opacity: 0;
+     
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideFromCenter {
+from {
+    opacity: 0;
+   
+}
+to {
+    opacity: 10;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+}
+
+
+
+html::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+  background-color: transparent;
+  background-color: var(--color2);
+}
+
+html::-webkit-scrollbar-thumb{
+   background-color: var(--color3);
+   width: 10px;
+   border-radius:20px ;
+   cursor: pointer;
+}
