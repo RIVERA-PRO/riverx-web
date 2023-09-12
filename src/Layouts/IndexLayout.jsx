@@ -9,6 +9,7 @@ import Servicios from '../Components/Servicios/Servicios'
 import Marketing from '../Components/Marketing/Marketing'
 import DesarrolloWeb from '../Components/DesarrolloWeb/DesarrolloWeb'
 import Alojamiento from '../Components/Alojamiento/Alojamiento'
+import Testimonios from '../Components/Testimonios/Testimonios'
 export default function IndexLayout() {
     return (
         <div>
@@ -19,6 +20,7 @@ export default function IndexLayout() {
             <Marketing />
             <DesarrolloWeb />
             <Alojamiento />
+            <Testimonios />
             <Footer />
             <Developer />
             <ButonScroll />
