@@ -44,7 +44,7 @@ body{
 
 
 
-a, .HeroText,.servisText{
+a, .HeroText,.servisText,.card{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
