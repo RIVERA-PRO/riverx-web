@@ -37,12 +37,16 @@ export default function Navbar() {
                     </div>
 
                     <div className='enlaces'>
+
+
                         <Anchor to={`/`} >Hogar</Anchor>
-                        <Anchor to={`/`} >Servicios</Anchor>
-                        <Anchor to={`/`} >Testimonios  </Anchor>
-                        <Anchor to={`/`} >FaQ</Anchor>
-                        <Anchor to={`/`} >Portafolio</Anchor>
-                        <Anchor to={`/`} >Contacto</Anchor>
+                        <Anchor onClick={() => { document.querySelector('.ServiciosContain').scrollIntoView({ behavior: 'smooth' }); }} >Servicios</Anchor>
+                        <Anchor onClick={() => { document.querySelector('.TestimoniosConatin').scrollIntoView({ behavior: 'smooth' }); }} >Testimonios</Anchor>
+                        <Anchor onClick={() => { document.querySelector('.PortfolioContain').scrollIntoView({ behavior: 'smooth' }); }} >Portafolio</Anchor>
+                        <Anchor onClick={() => { document.querySelector('.ContactoContainComponent').scrollIntoView({ behavior: 'smooth' }); }} >Contacto</Anchor>
+
+
+
 
                         <ButonNav />
                     </div>

@@ -11,6 +11,7 @@ import DesarrolloWeb from '../Components/DesarrolloWeb/DesarrolloWeb'
 import Alojamiento from '../Components/Alojamiento/Alojamiento'
 import Testimonios from '../Components/Testimonios/Testimonios'
 import Portfolio from '../Components/Portfolio/Portfolio'
+import ContactoContain from '../Components/ContactoContain/ContactoContain'
 export default function IndexLayout() {
     return (
         <div>
@@ -23,6 +24,7 @@ export default function IndexLayout() {
             <Alojamiento />
             <Testimonios />
             <Portfolio />
+            <ContactoContain />
             <Footer />
             <Developer />
             <ButonScroll />

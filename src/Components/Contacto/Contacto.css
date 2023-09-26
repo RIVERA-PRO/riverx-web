@@ -1,0 +1,14 @@
+.ContactoContain{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    place-content: center;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.256);
+    margin-top: 60px;
+    background-color: var(--blanco);
+
+}

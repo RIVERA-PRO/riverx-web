@@ -6,18 +6,13 @@ export const router = createBrowserRouter([
     {
         path: "/",
         element: <IndexLayout />,
+        children: [
+            {
+                index: true,
+                element: <IndexLayout />,
+            },
 
+        ],
     },
-    // {
-    //     path: "/",
-    //     element: <MainLayout />,
-    //     children: [
-    //         {
-    //             path: "/ejercicio/:id/:ejercicio",
-    //             element: <PageDetail />,
-    //         },
 
-
-    //     ],
-    // },
 ]);
